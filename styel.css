@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'digital-clock-font';
+  src: url('https://fonts.google.com/specimen/Orbitron?query=orbitron&vfonly=true');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom left, teal, seagreen, azure);
+}
+.background--container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  /* background-color: darkgray; */
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(7, 100px);
+}
+
+.display {
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-wrap: break-all;
+}
+#reset {
+  grid-column: span 3;
+  background-color: lightcoral;
+}
+#result {
+  /* grid-column: span 2; */
+  background-color: lightskyblue;
+  opacity: 0.5;
+}
+#result:hover {
+  opacity: 0.9;
+}
+
+.history {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5rem;
+}
+.output {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2.5rem;
+}
+.background--container > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid lightgray;
+  outline: none;
+  background-color: silver;
+  opacity: 0.75;
+}
+.background--container > button:hover {
+  opacity: 0.9;
+}
+.background--container > button.operations {
+  background-color: orange;
+  opacity: 0.7;
+}
+
+.background--container > button.operations:hover {
+  opacity: 0.9;
+}
+
+/*
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  border: 2px solid lightgray;
+  background-color: lightsalmon;
+}
+#result {
+  padding: 5px;
+  float: right;
+  border: 1px solid lightgrey;
+}
+#reset {
+  background-color: rgba(255, 0, 0, 0.727);
+  border: 2px solid lightgray;
+} */
