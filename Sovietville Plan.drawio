@@ -1,14 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T09:13:41.668Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Hbeazdh15Xc2F8ldvpAN" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T09:48:23.046Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EnMcMOCp0gAPcAx8TOMx" version="22.1.11" type="github">
   <diagram name="Page-1" id="JakNetywRGzXVHfu_kaK">
-    <mxGraphModel dx="954" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2099" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1lMt6eo6NQOrv_nqaNE4-1" value="HomeRegister" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="400" y="50" width="110" height="110" as="geometry" />
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1lMt6eo6NQOrv_nqaNE4-1" target="1lMt6eo6NQOrv_nqaNE4-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1lMt6eo6NQOrv_nqaNE4-2" value="Home" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="40" width="120" height="80" as="geometry" />
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-1" value="HomeRegister&lt;br&gt;&lt;br&gt;youngCouple&lt;br&gt;youngSinglePerson&lt;br&gt;oldCouple&lt;br&gt;oldSinglePerson" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-2" value="Home&lt;br&gt;&lt;br&gt;-population&lt;br&gt;-devices&lt;br&gt;-numberOfRooms&lt;br&gt;-budget&lt;br&gt;-status (electric cons)&lt;br&gt;-bills (electric)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1lMt6eo6NQOrv_nqaNE4-5" target="1lMt6eo6NQOrv_nqaNE4-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1lMt6eo6NQOrv_nqaNE4-5" value="Devices&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="50" width="200" height="110" as="geometry" />
@@ -19,23 +25,48 @@
         <mxCell id="1lMt6eo6NQOrv_nqaNE4-7" value="Electricity consumption" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1lMt6eo6NQOrv_nqaNE4-5">
           <mxGeometry x="20" y="70" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1lMt6eo6NQOrv_nqaNE4-8" value="People" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="170" width="200" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="1lMt6eo6NQOrv_nqaNE4-9" value="young/old" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1lMt6eo6NQOrv_nqaNE4-8">
-          <mxGeometry x="10" y="40" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1lMt6eo6NQOrv_nqaNE4-11" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1lMt6eo6NQOrv_nqaNE4-8">
-          <mxGeometry x="20" y="98" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1lMt6eo6NQOrv_nqaNE4-10" value="salasry/pension" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1lMt6eo6NQOrv_nqaNE4-8">
-          <mxGeometry x="20" y="68" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="1lMt6eo6NQOrv_nqaNE4-12" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="200" width="200" height="200" as="geometry" />
+          <mxGeometry x="370" y="190" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="1lMt6eo6NQOrv_nqaNE4-13" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="320" width="200" height="200" as="geometry" />
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-13" value="Electricity cost" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-14" value="Electricity cost per Home" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1lMt6eo6NQOrv_nqaNE4-13">
+          <mxGeometry x="10" y="38" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-15" value="Electrictiy sum of devices" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1lMt6eo6NQOrv_nqaNE4-13">
+          <mxGeometry x="20" y="68" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-16" value="endOfMonth()&lt;br&gt;pay bills,&lt;br&gt;get money&lt;br&gt;kick out the poor" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="70" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1lMt6eo6NQOrv_nqaNE4-18" target="1lMt6eo6NQOrv_nqaNE4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-18" value="Abstract youngSinglePerson&lt;br&gt;&lt;br&gt;int salary" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="580" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1lMt6eo6NQOrv_nqaNE4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-19" value="Abstract youngCouple&lt;br&gt;&lt;br&gt;int salary1&lt;br&gt;int salary2" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1lMt6eo6NQOrv_nqaNE4-20" target="1lMt6eo6NQOrv_nqaNE4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-20" value="Abstract oldSinglePerson&lt;br&gt;&lt;br&gt;int pension" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="540" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1lMt6eo6NQOrv_nqaNE4-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1lMt6eo6NQOrv_nqaNE4-21" value="Abstract oldCouple&lt;br&gt;&lt;br&gt;int pension1&lt;br&gt;int pension2" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="190" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
